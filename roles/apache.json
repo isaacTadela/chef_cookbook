@@ -1,0 +1,14 @@
+{
+  "name":"apache",
+  "override_attributes": {
+    "apache": {
+       "indexfile": "index.html.erb",
+       "website":{
+          "name": "Isaac"
+       }
+    }
+   },
+   "run_list": [
+     "recipe[apache]"
+   ]
+}
